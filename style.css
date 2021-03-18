@@ -427,4 +427,82 @@ footer .footer-end .copyright p {
   font-weight: bolder;
   font-size: 1.2rem;
 }
+
+@media only screen and (min-width: 425px) and (max-width: 599px) {
+  div {
+    border: 0px solid black;
+  }
+  nav .nav ul li a {
+    margin-left: 35px;
+  }
+  nav .nav ul li:first-child {
+    margin-left: 0;
+  }
+  section .section {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  section .section .article {
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+  }
+  section .section .image {
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+  }
+  section .section .image .circle {
+    padding: 80px;
+    width: 50%;
+  }
+  section .section .image-react {
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+  }
+  section .section .skills {
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+  }
+  section .section .skills h1 {
+    margin-top: 20px;
+  }
+  section .section .skills ul li a {
+    padding: 20px;
+  }
+  section .waves svg {
+    margin-top: -120px;
+  }
+  section .fill {
+    margin-top: -15px;
+  }
+  section .certifications {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  section .certifications .cert {
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+  }
+  section .wavy svg {
+    margin-top: -130px;
+  }
+  section .books {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  section .books .image {
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+  }
+  section .books .content {
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+  }
+  section .books .content h2 {
+    margin-top: 30px;
+  }
+  footer .footer .contact-image img {
+    width: 90%;
+    margin-top: 50px;
+  }
+}
 /*# sourceMappingURL=style.css.map */
