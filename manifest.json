@@ -1,0 +1,16 @@
+{
+    "name": "Omolola's Portfolio",
+    "short_name": "Omolola's Portfolio",
+    "start_url": "index.html",
+    "display": "standalone",
+    "background-color": "#dd99dd",
+    "theme_color": "#8a2c98",
+    "orientation": "portrait-primary",
+    "icons":[
+        {
+            "src": "images/loggo.png",
+            "type":"image/png",
+            "sizes":"181x190"
+        }
+    ]
+}

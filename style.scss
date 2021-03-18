@@ -1,0 +1,421 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Roboto+Condensed&display=swap');
+
+@mixin fontOne{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+@mixin fontTwo{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+@mixin bodyColor{
+    background-color: #5a2667;
+}
+
+@mixin textColor{
+    color:#fffcfc;
+}
+
+@mixin circleFill{
+    background-color:#2b1657;
+}
+
+@mixin flexRow{
+    display:flex;
+    flex:row nowrap;
+}
+
+@mixin flexBreak{
+    display:flex;
+    flex: row wrap;
+}
+
+*{
+    ::before,::after{
+        box-sizing:border-box;
+    }
+}
+
+body{
+    @include bodyColor;
+    margin:0 auto;
+    color:#fff;
+    font-size:1rem;
+
+}
+
+div{
+    border:0px solid black;
+}
+
+nav {
+    .nav{
+        @include flexRow;
+        flex-basis:100%;
+        height:50px;
+        background-image: url("images/background.jpg");
+        background-size:100%;
+
+        ul{
+            list-style-type:none;
+
+            li{
+                display:inline;
+
+                a{
+                    @include fontOne;
+                    @include textColor;
+                    text-decoration:none;
+                    font-size:1.2rem;
+                    margin-left:100px;
+                    
+                }
+            }
+
+            li:first-child{
+                margin-left:250px;
+            }
+        }
+    }
+}
+
+section{
+    .section{
+        @include flexRow;
+        min-height:100px;
+
+        .article{
+            flex-basis:60%;
+
+            h1{
+               @include fontTwo;
+               font-size:4rem;
+               text-align:center;
+               margin-top:80px; 
+            }
+
+            p{
+                @include fontOne;
+                text-align:center;
+                margin-left:40px;
+                margin-right:40px;
+                font-size:1.5rem;
+            }
+        }
+
+        .image{
+            flex-basis:40%;
+
+            .circle{
+                @include circleFill;
+                position:absolute;
+                width:30%;
+                border-radius:70%;
+                padding:20px;
+                color:white;
+                height:335px;
+                z-index:-1;
+                margin-left:60px;
+                margin-top:40px;
+                border:none;
+            }
+
+            .lax{
+                background-color:#fff;
+                margin-top:20px;
+                z-index:-2;
+            }
+
+
+            img{
+                width:90%;
+                display:block;
+                margin-left:auto;
+                margin-right:auto;
+            }
+        }
+
+        .image-react{
+            flex-basis:40%;
+
+            img{
+                width:80%;
+                margin-top:20px;
+                display:block;
+                margin-left:auto;
+                margin-right:auto;
+            }
+        }
+
+        .skills{
+            flex-basis:60%;
+            color:#000000;
+
+            h1{
+                @include fontTwo;
+                text-align:center;
+                font-size:4rem;
+                font-weight:bolder;
+                margin-top:15px;
+            }
+
+            ul{
+                list-style-type:none;
+
+                li{
+                    @include fontOne;
+                    margin-top:5px;
+                    font-size:2.6rem;
+                    text-align:center;
+                }
+            }
+
+            a{
+                @include fontOne;
+                display:block;
+                color:#2b1657;
+                text-decoration:none;
+                text-align:right;
+                font-size:1.2rem;
+                cursor:pointer;
+                margin-top:15px;
+                margin-right:15px;
+            }
+        }
+    }
+
+    .certifications{
+        @include flexRow;
+        min-height:100px;
+        background-color:#fff;
+
+        .cert{
+            flex-basis:33.33%;
+
+            a{
+                text-decoration:none;
+                display:block;
+                margin-top:10px;
+
+                img{
+                    display:block;
+                    margin-left:auto;
+                    margin-right:auto;
+                    margin-top:20px;
+                }
+
+            }
+        
+            p{
+                text-align:right;
+                margin-right:15px;
+
+                a{
+                    @include fontTwo;
+                    text-decoration:none;
+                    color: #000000;
+                    font-size:1.2rem;
+                    font-weight:bolder;
+                }
+            }
+        }
+
+    }
+
+    .waves{
+        @include flexRow;
+        flex-basis:100%;
+        svg{
+            margin-top:-160px;
+        }
+    }
+
+    .fill{
+        background-color:#fff;
+    }
+
+    .waves-fill{
+        @include flexRow;
+        flex-basis:100%;
+    }
+
+    .wavy{
+        svg{
+            margin-top:-284px;
+        }
+    }
+
+    .books{
+        @include flexRow;
+        min-height:500px;
+        background-color:#2e1b33;
+        margin-top:-10px;
+
+        .image{
+            flex-basis:35%;
+
+            img{
+                width:100%;
+                margin-top:65px;
+            }
+
+        }
+
+        .content{
+            flex-basis:65%;
+
+            h1{
+                @include fontTwo;
+                text-align:center;
+                font-size: 3rem;
+                margin-top:15px;
+                font-weight:bold;
+            }
+
+            h3{
+                @include fontOne;
+                text-align:center;
+                font-size:2.4rem;
+            }
+
+            p{
+                @include fontOne;
+                text-align:center;
+                margin-left:20px;
+                margin-right:20px;
+                font-size:1.5rem;
+            }
+
+            span{
+                display:block;
+                text-align:center;
+                margin-top:40px;
+
+            .amazon{
+                @include fontOne;
+                text-decoration:none;
+                padding:20px;
+                background:#fffcfc;
+                border:1px solid #000000;
+                color:#000000;
+                border-radius:10px;
+                font-weight:bold;
+                
+            }
+
+            .okadabooks{
+                @include fontOne;
+                text-decoration:none;
+                padding:20px;
+                background:yellow;
+                border:1px solid #000000;
+                color:#000000;
+                border-radius:10px;
+                font-weight:bold;
+                margin-left:20px;
+            }
+
+        }
+        h2{
+            @include fontOne;
+            font-size:1.5rem;
+            text-align:right;
+            margin-right:15px;
+            margin-top:10px;
+            a{
+                text-decoration:none;
+                color:inherit;
+            }
+        }
+        
+    }
+    }
+
+    .quote{
+        @include flexRow;
+        background-color:black;
+        min-height:100px;
+
+        .content{
+            flex-basis:100%;
+
+        p{
+            @include fontOne;
+            font-size:1.5rem;
+            text-align:center;
+            margin-left:40px;
+            margin-right:40px;
+            padding:20px;
+        }
+
+        span{
+            @include fontOne;
+            display:block;
+            text-align:center;
+            font-size:1.2rem;
+        }
+
+    }
+    }
+}
+
+
+footer{
+    .footer{
+        @include flexRow;
+        min-height:100px;
+        background-color:#fff;
+
+        .contact-image{
+            flex-basis:40%;
+        
+            img{
+                width:60%;
+                display:block;
+                margin-left:auto;
+                margin-right:auto;
+            }
+        }
+
+        .contact-content{
+            flex-basis:60%;
+
+            ul{
+                list-style-type:none;
+
+                li{
+
+                    a{
+                        @include fontOne;
+                        text-decoration:none;
+                        color:#000000;
+                        font-size:1.4rem;
+                        font-weight:bolder;
+                        display:block;
+                        margin-top:15px;
+                    }
+                }
+
+                li:first-child{
+                    margin-top:45px;
+                }
+            }
+        }
+    }
+
+    .footer-end{
+        @include flexRow;
+        height:50px;
+
+        .copyright{
+            flex-basis:100%;
+
+            p{
+                @include fontTwo;
+                text-align:center;
+                font-weight:bolder;
+                font-size:1.2rem;
+            }
+        }
+    }
+}
