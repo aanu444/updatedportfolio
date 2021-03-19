@@ -12,4 +12,7 @@
 3rd Version: checked responsiveness of index page for any bugs. Worked on second phase of responsiveness for medium II phone screens (600px-767px) (deployed on the 19th of March, 2021)
 
 ---
+4th Version: rolled out responsiveness for large I phone screens (768px-1024px) (deployed on the 19th of March, 2021)
+
+---
 Designed and Developed by Omolola Odunowo - Copyright Claim held.
