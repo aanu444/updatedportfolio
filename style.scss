@@ -437,6 +437,99 @@ footer{
     }
 }
 
+@media only screen and (max-width: 424px){
+    div{
+        border:0px solid black;
+    }
+
+    nav{
+        .nav{
+            ul{
+                display:none;
+            }
+        }
+    }
+
+    section{
+        .section{
+            .article{
+                flex-basis:100%;
+            }
+
+            .image{
+                display:none;
+            }
+
+            .image-react{
+                display:none;
+            }
+
+            .skills{
+                flex-basis:100%;
+            }
+
+        }
+    .waves{
+        display:none;
+    }
+
+    .certifications{
+        .cert{
+            flex-basis:100%;
+        } 
+
+        .cert-no{
+            display:none;
+        }
+
+        
+    }
+    
+    .books{
+        flex-wrap:wrap;
+        .image{
+            flex-basis:100%;
+
+            img{
+                width:100%;
+            }
+        }
+
+        .content{
+            flex-basis:100%;
+            p{
+               display:none; 
+            }
+
+            span{
+                .amazon{
+                    display:none;
+                }
+            }
+
+            h2{
+                margin-top:50px;
+            }
+        }
+    }    
+}
+
+    footer{
+        .footer{
+            .contact-image{
+                display:none;
+            }
+
+            .contact-content{
+                flex-basis:100%;
+
+                li{
+                    text-align:center;
+                }
+            }
+        }
+    }
+}
 
 @media only screen and (min-width: 425px) and (max-width: 599px){
     div{
@@ -474,6 +567,7 @@ footer{
                 .circle{
                     padding:80px;
                     width:50%;
+                    margin-left:25px;
                 }
             }
         

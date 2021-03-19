@@ -440,6 +440,73 @@ footer .footer-end .copyright p {
   font-size: 1.2rem;
 }
 
+@media only screen and (max-width: 424px) {
+  div {
+    border: 0px solid black;
+  }
+  nav .nav ul {
+    display: none;
+  }
+  section .section .article {
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+  }
+  section .section .image {
+    display: none;
+  }
+  section .section .image-react {
+    display: none;
+  }
+  section .section .skills {
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+  }
+  section .waves {
+    display: none;
+  }
+  section .certifications .cert {
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+  }
+  section .certifications .cert-no {
+    display: none;
+  }
+  section .books {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  section .books .image {
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+  }
+  section .books .image img {
+    width: 100%;
+  }
+  section .books .content {
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+  }
+  section .books .content p {
+    display: none;
+  }
+  section .books .content span .amazon {
+    display: none;
+  }
+  section .books .content h2 {
+    margin-top: 50px;
+  }
+  footer .footer .contact-image {
+    display: none;
+  }
+  footer .footer .contact-content {
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+  }
+  footer .footer .contact-content li {
+    text-align: center;
+  }
+}
+
 @media only screen and (min-width: 425px) and (max-width: 599px) {
   div {
     border: 0px solid black;
@@ -465,6 +532,7 @@ footer .footer-end .copyright p {
   section .section .image .circle {
     padding: 80px;
     width: 50%;
+    margin-left: 25px;
   }
   section .section .image-react {
     -ms-flex-preferred-size: 100%;
