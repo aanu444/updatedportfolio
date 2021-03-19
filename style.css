@@ -210,16 +210,20 @@ section .waves {
   -webkit-box-flex: row;
       -ms-flex: row nowrap;
           flex: row nowrap;
+}
+
+section .waves .fill-in {
   -ms-flex-preferred-size: 100%;
       flex-basis: 100%;
 }
 
-section .waves svg {
+section .waves .fill-in svg {
   margin-top: -160px;
 }
 
 section .fill {
   background-color: #fff;
+  margin-top: -5px;
 }
 
 section .waves-fill {
@@ -229,12 +233,20 @@ section .waves-fill {
   -webkit-box-flex: row;
       -ms-flex: row nowrap;
           flex: row nowrap;
+}
+
+section .waves-fill .fill-in {
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+}
+
+section .waves-fill .wave-in {
   -ms-flex-preferred-size: 100%;
       flex-basis: 100%;
 }
 
 section .wavy svg {
-  margin-top: -284px;
+  margin-top: -290px;
 }
 
 section .books {
@@ -246,7 +258,7 @@ section .books {
           flex: row nowrap;
   min-height: 500px;
   background-color: #2e1b33;
-  margin-top: -10px;
+  margin-top: -6px;
 }
 
 section .books .image {
@@ -503,6 +515,84 @@ footer .footer-end .copyright p {
   footer .footer .contact-image img {
     width: 90%;
     margin-top: 50px;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+  div {
+    border: 0px solid black;
+  }
+  nav .nav ul li a {
+    margin-left: 50px;
+  }
+  nav .nav ul li:first-child {
+    margin-left: 90px;
+  }
+  section .section {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  section .section .article {
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+  }
+  section .section .image {
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+  }
+  section .section .image .circle {
+    padding: 60px;
+    width: 65%;
+    height: 365px;
+    margin-top: 80px;
+  }
+  section .section .image .lax {
+    margin-top: 60px;
+  }
+  section .section .image-react {
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+    margin-top: 0px;
+  }
+  section .section .skills {
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+  }
+  section .section .skills h1 {
+    margin-top: 20px;
+  }
+  section .section .skills ul li a {
+    padding: 20px;
+  }
+  section .certifications {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  section .certifications .cert {
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+  }
+  section .books {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  section .books .image {
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+  }
+  section .books .image img {
+    width: 100%;
+  }
+  section .books .content {
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+  }
+  section .books .content h2 {
+    margin-top: 30px;
+  }
+  footer .footer .contact-image img {
+    width: 90%;
+    margin-top: 30px;
   }
 }
 /*# sourceMappingURL=style.css.map */
