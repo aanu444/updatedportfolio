@@ -18,7 +18,7 @@
 5th Version: semi-final roll out for responsivess. Worked on smallest screens (424px and smaller), final issue will be treated tomorrow. (deployed on the 20th of March, 2021)
 
 ---
-6th Version: fixed nav issue with smallest size phones. Noticed responsiveness issue on devices larger than 1440px. Will proceed to work on it. Could not meet up with previous deployment for 2ist of March, 2021.(deployed on the 23rd of March, 2021)
+6th Version: fixed nav issue with smallest size phones. Noticed responsiveness issue on devices larger than 1440px. Will proceed to work on it. Could not meet up with previous deployment for 21st of March, 2021.(deployed on the 23rd of March, 2021)
 
 ---
 Designed and Developed by Omolola Odunowo - Copyright Claim held.
