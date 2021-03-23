@@ -908,3 +908,223 @@ footer{
     }
 }
 
+
+@media only screen and (min-width: 1300px) and (max-width: 1439px){
+    div{
+        border:0px solid black;
+    }
+
+    section{
+        .section{
+            .image{
+            .circle{
+                margin-top:80px;
+                height:350px;
+            }
+
+            .lax{
+                margin-top:60px;
+            }
+
+        }
+        }
+    }
+}
+
+@media only screen and (min-width:1440px) and (max-width:1570px){
+    body{
+        min-width:1440px;
+    }
+
+    div{
+        border:0px solid black;
+    }
+
+    section{
+        .section{
+            .image{
+            .circle{
+                margin-top:120px;
+                height:350px;
+            }
+
+            .lax{
+                margin-top:100px;
+            }
+
+        }
+        }
+    }
+}
+@media only screen and (min-width:1571px){
+    body{
+        min-width:2500px;
+    }
+
+    div{
+        border:0px solid black;
+    }
+
+    nav{
+        .nav{
+            height:100px;
+
+            .nav-md{
+                li{
+                    text-align:center;
+                    a{
+                        font-size:4rem;
+                    }
+                }
+            }
+        }
+    }
+
+    section{
+        .section{
+            .article{
+                h1{
+                    font-size:8rem;
+                    margin-top:80px;
+                }
+
+                p{
+                    font-size:4rem;
+                }
+            }
+
+            .image{
+                .circle{
+                    margin-top:195px;
+                    height:800px;
+                    margin-left:120px;
+                }
+
+                .lax{
+                    margin-top:175px;
+                }
+
+                img{
+                    width:100%;
+                }
+            }
+
+            .image-react{
+                img{
+                    width:100%;
+                }
+            }
+
+            .skills{
+                h1{
+                    font-size:8rem;
+                }
+
+                ul{
+                    li{
+                        font-size:4rem;
+                    }
+
+                }
+
+                a{
+                    font-size:2rem;
+                }
+            }
+        }
+
+        .waves{
+            svg{
+                margin-top:-200px;
+            }
+        }
+
+        .certifications{
+            .cert{
+                img{
+                    width:100%;
+                }
+
+                p{
+                    a{
+                        font-size:2.4rem;
+                    }
+                }
+            }
+        }
+
+        .books{
+            .image{
+                img{
+                    width:150%;
+                    margin-left:-200px;
+                }
+            }
+
+            .content{
+                h1{
+                    font-size:6rem;
+                    margin-top:30px;
+                }
+
+                h3{
+                    font-size:4.8rem;
+                }
+
+                p{
+                    font-size:3rem;
+                }
+
+                span{
+                    margin-top:60px;
+
+                    .amazon, .okadabooks{
+                        padding:40px;
+                        font-size:2rem;
+                    }
+                    
+                }
+
+                h2{
+                    font-size:2.5rem;
+                }
+            }
+        }
+
+        .quote{
+            .content{
+            p{
+                font-size:3.5rem;
+            }
+
+            span{
+                font-size:2rem;
+            }
+        }
+        }
+
+    }
+
+    footer{
+        .footer{
+            .contact-content{
+                ul{
+                    li{
+                        a{
+                            font-size:3rem;
+                        }
+                    }
+                }
+            }
+        }
+
+        .footer-end{
+            .copyright{
+                p{
+                    font-size:2.5rem;
+                }
+            }
+        }
+    }
+}
+
