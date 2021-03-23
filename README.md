@@ -15,4 +15,7 @@
 4th Version: rolled out responsiveness for large I phone screens (768px-1024px) (deployed on the 19th of March, 2021)
 
 ---
+5th Version: semi-final roll out for responsivess. Worked on smallest screens (424px and smaller), final issue will be treated tomorrow. (deployed on the 20th of March, 2021)
+
+---
 Designed and Developed by Omolola Odunowo - Copyright Claim held.
